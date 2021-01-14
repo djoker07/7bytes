@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    overflow: hidden;
+}
+
+img {
+    width: 100vw;
+    height: 100vh;
+    height: fit-content;
+}
+
+h1 {
+    /* margin-left: 400px; */
+    margin-top: -300px;
+    font-size: 65px;
+    color: white;
+}
+
+p {
+    margin-top: -50px;
+    font-size: 30px;
+    color: white;
+}
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
